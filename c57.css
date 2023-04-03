@@ -1,0 +1,128 @@
+body{
+margin:0px;
+padding-top: 800px;
+ text-align: center;
+background-color: linear-gradient(aquamarine 0%, skyblue 100%);
+}
+ 
+.profile{
+    width: 100%;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+#welcome{
+   position: absolute; 
+    overflow: hidden;
+    height: 400px;
+    color: black;
+    background-color: linear-gradient(aquamarine 0%, skyblue 100%);
+    left:0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    opacity: 0.8;
+    display: table;
+    width: 100%;
+    height: 100%;
+    z-index: 3000;
+}
+h1 {
+    font-size: 40px;
+    line-height: 1.2;
+    font-family: inherit;
+    font-weight: 300; 
+}
+.line {
+    height: 6px;
+    background-color: #000;
+    width: 70px;
+    margin: 8px auto;
+}
+
+
+p {
+    max-width: 450px;
+    margin: 25px auto;
+    font-size: 17px;
+    line-height: 1.3;
+}
+
+.parallax-inner {
+
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+#name{
+    font-size :57px;
+    line-height: 1.2;
+    font-family: cursive;
+}
+h2{
+     font-size: 40px;
+    line-height: 1.2;
+    font-family: inherit;
+    font-weight: 300; 
+}
+#home{
+    padding: 50px;
+    text-align: center;
+    font-size: 42px;
+    z-index: 2000;
+    margin-top:250px;
+}
+.menulist{
+    list-style:none;
+    font-family:inherit;
+    position: fixed;
+    top: 0px;
+    z-index:10000;
+    cursor: pointer; 
+    background-color: azure;
+    width: 100%;
+    margin-top: 0px;
+    padding-top:15px;
+    padding-bottom: 15px;
+}
+.menuitems{
+    float: left;
+    color: darkgreen;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: sans-serif ;
+    font-size: 20px;
+    text-decoration: none;
+}
+.menuitems:hover{
+    color: aquamarine;
+    font-size: 22px;
+}
+html{
+    scroll-behavior: smooth;
+}
+.achivementsanchor{
+    text-decoration: none;
+    color: darkmagenta !important;
+}
+.achivementsanchor:hover{
+    color: cornflowerblue
+}
+section{
+    text-align: center;
+    background-color: linear-gradient(aquamarine 0%, skyblue 100%);
+}
+#contact{
+    margin-top: 80px;
+    background: azure;
+    width: 100%;
+}
+#contact a {
+    color: firebrick;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+}
